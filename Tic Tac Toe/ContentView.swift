@@ -14,6 +14,18 @@ struct ContentView: View {
                 .font(.title)
                 .bold()
                 .padding()
+            LazyVGrid(columns: Array(repeating: GridItem(.fixed(120), spacing: 15),  count: 3), spacing: 15) {
+                Text("X")
+                Text("X")
+                Text("X")
+                Text("X")
+                Text("X")
+                Text("X")
+                Text("X")
+                Text("X")
+                Text("X")
+                
+            }
         }
         .preferredColorScheme(.dark)
     }
